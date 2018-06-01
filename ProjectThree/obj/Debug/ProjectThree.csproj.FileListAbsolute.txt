@@ -1,0 +1,7 @@
+C:\Users\WeCanCodeIT\source\repos\ProjectThree\ProjectThree\bin\Debug\ProjectThree.exe.config
+C:\Users\WeCanCodeIT\source\repos\ProjectThree\ProjectThree\bin\Debug\ProjectThree.exe
+C:\Users\WeCanCodeIT\source\repos\ProjectThree\ProjectThree\bin\Debug\ProjectThree.pdb
+C:\Users\WeCanCodeIT\source\repos\ProjectThree\ProjectThree\obj\Debug\ProjectThree.csprojAssemblyReference.cache
+C:\Users\WeCanCodeIT\source\repos\ProjectThree\ProjectThree\obj\Debug\ProjectThree.csproj.CoreCompileInputs.cache
+C:\Users\WeCanCodeIT\source\repos\ProjectThree\ProjectThree\obj\Debug\ProjectThree.exe
+C:\Users\WeCanCodeIT\source\repos\ProjectThree\ProjectThree\obj\Debug\ProjectThree.pdb
