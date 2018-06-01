@@ -47,6 +47,7 @@ namespace ProjectThree
             get { return this.thirst; }
             set { this.thirst = value; }
         }
+
         
         //constructors
         public VirtualPet()
@@ -102,6 +103,11 @@ namespace ProjectThree
             mood -= 50;
             lifeSpan += 3;
         }
+        public void CheckStatus()
+        {
+            Console.WriteLine("\n Hunger:{0} \n Thirst:{5} \n Exercise:{4} \n Sleepiness:{1} \n Mood:{2} \n Health:{3} \n LifeSpan:{6} \n", hunger, sleep, mood, health, exercise, thirst, lifeSpan);
+        }
+       
         
         //Retaliance Value
         public int Retaliance()
@@ -127,7 +133,7 @@ namespace ProjectThree
             {
                 Mood -= 10;
             }
-            Console.WriteLine(" Hunger:{0} \n Thirst:{5} \n Exercise:{4} \n Sleepiness:{1} \n Mood:{2} \n Health:{3} \n LifeSpan:{6} ", hunger, sleep, mood, health, exercise, thirst,lifeSpan);
+            
         }
 
             

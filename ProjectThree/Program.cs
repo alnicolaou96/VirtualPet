@@ -16,7 +16,9 @@ namespace ProjectThree
             string name = Console.ReadLine(); Console.WriteLine();
 
             Console.WriteLine("Meet {0}! Here are {0}'s current stats!",name);
-            PetOne.Tic(); Console.WriteLine();
+            PetOne.Tic();
+
+            Console.WriteLine("type '0' to quit the game\ntype in '6' to check {0}'s status\n",name);
             int activity;
             do
             {
@@ -28,26 +30,37 @@ namespace ProjectThree
                     case 1:
                         PetOne.FeedPet();
                         PetOne.Tic();
+                        Console.WriteLine(name + ": Thanks for the Food!");                        
                         break;
                     case 2:
                         PetOne.Water();
                         PetOne.Tic();
+                        Console.WriteLine(name + ": Thanks for the Water!");
                         break;
                     case 3:
                         PetOne.Play();
                         PetOne.Tic();
+                        Console.WriteLine(name + ": I had fun!");
                         break;
                     case 4:
                         PetOne.BedTime();
                         PetOne.Tic();
+                        Console.WriteLine(name + ": Im feeling well rested!");
                         break;
                     case 5:
                         PetOne.Doctors();
                         PetOne.Tic();
+                        Console.WriteLine(name + ": The doctors scare me, I dont want to go again!");
                         break;
-
+                    case 6:
+                        PetOne.CheckStatus();
+                        break;
                 }
+  
             } while (activity != 0);
+            Console.WriteLine("\nGAME OVER!");
+            Console.WriteLine("your final stats are:");
+            PetOne.CheckStatus();
 
         }
     }
